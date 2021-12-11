@@ -1,5 +1,4 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
 import Navbar from "./components/Navbar";
 import Form from "./components/Form";
 import styled from "styled-components";
@@ -15,6 +14,7 @@ function App() {
 }
 
 const Background = styled.div`
+  height: 100%;
   background-image: url(${bg});
 `;
 
